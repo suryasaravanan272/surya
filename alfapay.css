@@ -1,0 +1,329 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Outfit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Outfit:wght@300&family=Source+Sans+Pro&family=Ubuntu:wght@400;500;700&display=swap');
+
+body{
+ background-color: #F7F7F7;
+ }
+.bg-light {
+    
+    background: #FFFFFF !important;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 10%) !important;
+}
+.navbar-brand img{
+    padding-right: 15px;
+}
+.ahamad{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9132E6 !important;
+    border-left: 1px solid rgba(16, 16, 16, 0.05);
+    padding: 15px;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4F23A1;
+}
+ .nav-item:nth-child(2){
+    color: #101010 !important;
+}
+.body-sec{
+    background: linear-gradient(180deg, #B33CE5 0%, #8C30E6 100%);
+    
+}
+.body-sec .row{
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    position: relative;
+    justify-content: space-between;
+}
+.shape{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.shape::after{
+    content: url('./images/Vector 1.png');
+    position: absolute;
+    left: 248px;
+}
+.shape span{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+.shape p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.txt-div{
+    padding-left: 30px;
+}
+.txt-div h1{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 42px;
+    color: #F7F7F7;
+}
+.txt-div p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #F7F7F7;
+    padding-top: 30px;
+}
+.mobile-logo{
+    
+    display: flex;
+    flex-direction: column;
+
+}
+.third .container{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    position: relative;
+    top: -37px;
+}
+#v-pills-tab{
+    width: 25%;
+    height: 727px;
+    border-right: 1px solid rgba(16, 16, 16, 0.1);
+    display: inline-block;
+    padding-top: 51px;
+}
+.account{
+    display: flex;
+    align-items: center;
+}
+.account img{
+    padding-right: 10px;
+    cursor: pointer;
+}
+.account h1{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    color: #101010;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black;
+   background-color: #fff;
+}
+.nav-pills .nav-link {
+    border-radius: unset;
+    color: #101010;
+    
+    margin-top: 20px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    height: 24px;
+   width: 100%;
+}
+.nav-pills .nav-link:hover{
+    font-weight: bold;
+    border-right: 1px solid #9132E6;
+}
+
+.tab-content{
+    width: 74%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 51px;
+}
+.navbar-header{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.navbar-brand{
+    margin: auto;
+}
+.navbar-header span img{
+    width: 10px;
+    margin: auto;
+}
+.navbar-header span{
+    background-color: #9132E6;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    left: 76px;
+    top: 10px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+.name{
+    padding-left: 25px;
+    padding-top: 12px;
+}
+.name h1{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #101010;
+}
+.name p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #484848;
+}
+.verified{
+    padding-left: 35px;
+    padding-bottom: 20px;
+}
+.navbar-nav .dropdown-menu {
+    position: static;
+    float: left;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+
+}
+.btn .dropleft button{
+    background: none;
+    border: unset;
+
+}
+.btn:focus{
+     box-shadow: none;
+
+  }
+ 
+  .dropleft .show {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .dropleft .show h4{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.25px;
+    color: #101010;
+    margin: 0;
+
+  }
+  .btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    padding: 0;
+    background-color: #fff;
+    margin-left: 15px;
+}
+.navbar-inverse{
+    padding-left: 26px;
+}
+.data-details .row .col-lg-6{
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.data span{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #101010;
+}
+.data p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #484848;
+}
+.unknown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.verify p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: #9132E6;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+footer{
+    background: #474747;
+    margin-top: 5px;
+}
+.page-footer .container{
+    padding: 0;
+}
+.border-solid{
+    
+    border: 1px solid #727070
+}
+.page-footer .container span{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #BEBEBE;
+    padding-right: 12px;
+}
+.page-footer .container #num{
+    color: #fff;
+    cursor: pointer;
+}
+
+#six{
+    text-align: end;
+}
+.mail{
+    border-left: 1px solid #727070;
+    padding-left: 12px;
+}
